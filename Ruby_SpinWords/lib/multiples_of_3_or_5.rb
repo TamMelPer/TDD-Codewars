@@ -19,3 +19,15 @@ def solution(number)
     end
     multiples.sum
 end
+
+# def solution(num)
+#     sum=0
+#     for x in 1...num
+#       sum+=x if(x%3==0 || x%5==0)
+#     end
+#     return sum
+#   end
+
+# def solution(number)
+#     (1...number).select{|n| (n % 5).zero? || (n % 3).zero?}.reduce(:+)
+#   end
